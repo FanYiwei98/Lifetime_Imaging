@@ -3,7 +3,7 @@ MATLAB algorithm of lifetime imaging
 
 # MATLAB Lifetime Imaging and Analysis
 
-This MATLAB script is designed for lifetime imaging analysis of time-series fluorescence data. It processes a sequence of TIFF images, performs noise filtering, selects Regions of Interest (ROI), and computes the lifetime of the fluorescence signal using different fitting methods. The output includes a lifetime map, statistical analysis of the lifetime distribution, and an interactive plot for data exploration.
+This MATLAB script is designed for lifetime imaging analysis of time-series luminescence data. It processes a sequence of TIFF images, performs noise filtering, selects Regions of Interest (ROI), and computes the lifetime of the luminescence signal using different fitting methods. The output includes a lifetime map, statistical analysis of the lifetime distribution, and an interactive plot for data exploration.
 
 ## Features
 - **Noise Filtering**: Removes pixels with intensity below a user-defined threshold.
