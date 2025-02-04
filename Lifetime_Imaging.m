@@ -25,7 +25,7 @@ intensity_matrix = zeros(num_files, height, width);
 % Fill the intensity matrix and perform noise filtering
 for k = 1:num_files
     img = images{k};
-    img(img < noise) = 0; % Set pixels below the noise threshold to 0
+    %img(img < noise) = 0; % Set pixels below the noise threshold to 0
     intensity_matrix(k, :, :) = img;
 end
 
